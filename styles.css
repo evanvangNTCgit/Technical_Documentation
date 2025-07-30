@@ -8,7 +8,21 @@ html{
 
 .main-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
+}
+
+.main-section h1 {
+    color: #333;
+    font-size: 2.5em;
+    text-align: center;
+    display: block;
+}
+
+.main-section p {
+    color: #666;
+    font-size: 1.2em;
+    text-align: left;
 }
